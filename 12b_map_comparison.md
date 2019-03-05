@@ -1,4 +1,4 @@
-| | Input | Returns | Backpressure | Parallelism | Pursue criterion |
+| Operator | Input | Returns | Backpressure | Parallelism | Pursue criterion |
 |---|---|---|---|---|---|
 | mergeMap<I, R> | any | Observable | consumes immediately | 0 to unlimited | as soon as next input item is available |
 | concatMap<I, R> | any | Observable | buffers next items (possible memory leak) | 0 to 1 inner observables | not before inner observable completes
