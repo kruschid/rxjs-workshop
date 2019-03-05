@@ -1,0 +1,19 @@
+{
+  "name": "rxjs-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/mongodb": "^3.1.20",
+    "axios": "^0.18.0",
+    "fs-extra": "^7.0.1",
+    "mongodb": "^3.1.13",
+    "rxjs": "^6.4.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
